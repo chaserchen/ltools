@@ -9,3 +9,7 @@
 ```c
 run_c test.c
 ```
+为在全局环境中使用，可将脚本配置在alias中，如：
+```c
+alias run_c='cd $HOME/projects/ltools;./run_c'
+```
