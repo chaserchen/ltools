@@ -1,0 +1,4 @@
+#!/bin/bash
+gcc $1 -o $1.o;
+echo -e "\033[36mcompiled file name: $1.o \033[0m";
+./$1.o;
